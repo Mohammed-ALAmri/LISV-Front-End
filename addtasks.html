@@ -41,16 +41,15 @@
                         <h5 class="card-title text-center">Add Task</h5>
                         <form class="form-signin">
 
-                            <div class="btn-group btn-block" role="group">
-                                <button type="button" class="btn btn-secondary">Open Doors</button>
-                                <button type="button" class="btn btn-secondary">Close Doors</button>
-                                <button type="button" class="btn btn-secondary">Turn car On</button>
-                                <button type="button" class="btn btn-secondary">Turn car Off</button>
+                            <div class="input-group mb-3">
+                                <select class="custom-select" id="inputGroupSelect01" style="border-radius: 25px; height: 53px;">
+                                    <option selected>Choose...</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
                             </div>
 
-                            <br>
-                            <br>
-                            
                             <div class="form-label-group">
                                 <input type="datetime-local" id="datetime" class="form-control" placeholder="Time" required >
                                 <label for="datetime">Time</label>
